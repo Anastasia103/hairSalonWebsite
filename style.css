@@ -47,7 +47,7 @@ h1, p, #read_more {
     justify-content: space-around;
     height: 40vh;
     padding-left: 45%;
-    background-image: url(/pictures/mustache\ car.jpg);
+    background-image: url(pictures/mustache\ car.jpg);
     background-size: 100% 60vh;
     margin: 0 2%;
     
