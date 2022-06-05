@@ -8,45 +8,64 @@
     <title>Home</title>
 </head>
 <body>
- <header>
-  <img src="./Mustachio Icon.jpg" alt="Mustachio written in curly text with a picture of a mustache ontop" class="mustachio">
-  <nav>
-      <a href="./index.html">Home</a>
-      <a href="./html/about.html">About</a>
-      <a href="./html/gallery.html">Gallery</a>
-      <a href="./html/blog.html">Blog</a>
-      <a href="./html/contact.html">Contact</a>
-  </nav>
- </header>
+    <img src="../Mustachio Icon.jpg" alt="Mustachio written in curly text with a picture of a mustache ontop" class="mustachio">
+    <header>
+        <nav class="navbar">
+            <a href="#" class="nav-branding"></a>
+            <ul class="nav-menu" >
+                <li class="nav-items">
+                 <a href="index.html" class="nav-link">HOME</a>
+               </li>
+              <li class="nav-items">
+               <a href="./html/about.html" class="nav-link">ABOUT</a>
+             </li>
+             <li class="nav-items">
+                <a href="./html/gallery.html" class="nav-link">GALLERY</a>
+             </li>
+             <li class="nav-items">
+                <a href="./html/blog.html" class="nav-link">BLOG</a>
+             </li>
+             <li class="nav-items">
+                <a href="./html/contact.html" class="nav-link">CONTACT</a>
+             </li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+       </header>
+
  <div class="beacon">
-     <h1>The Beacon to all mankind</h1>
+     <h1>THE BEACON TO ALL MANKIND</h1>
      <p>Our website templates are created with</p>
      <p>inspiration, checked for quality and originality</p>
      <p>and meticulously sliced and coded.</p>
-     <a href="./html/blog.html" class="read_more">READ MORE</a>
+     <a href="./html/blog.html" id="read_more">READ MORE</a>
  </div>
  <div class="pictures">
      <a href="./html/gallery.html">
-         <img src="" alt="">
+         <img src="/pictures/gray-haired man.jpg" alt="gray-haired man with a mustache">
          <h2>THE FATHER</h2>
      </a>
      <a href="./html/gallery.html">
-        <img src="" alt="">
+        <img src="/pictures/mustache hat.jpg" alt="close up shot of a man with a hat and a clean shaven face">
         <h2>THE ACTOR</h2>
      </a>
      <a href="./html/gallery.html">
-        <img src="" alt="">
+        <img src="/pictures/nerd mustache.jpg" alt="close up of a man with square glasses and a neatly trimmed mustache">
         <h2>THE NERD</h2>
      </a>
  </div>
  <footer>
    <h3>@2023 by Mustacchio. All rights reserved</h3>
    <div class="footer">
-       <img src="" alt="">
+       <img src="/" alt="">
        <img src="" alt="">
        <img src="" alt="">
        <img src="" alt="">
    </div>
  </footer>
+ <script src="script.js"></script>
 </body>
 </html>

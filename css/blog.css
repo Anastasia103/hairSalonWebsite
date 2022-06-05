@@ -15,57 +15,7 @@ a{
     color: black;
     text-decoration: none;
 }
-h1, h2 {
-    font-family: Stencil Std, fantasy; 
-}
- 
-h1 {
-    color: black;
-    background-color: white;
-}
 
-p {
-    color: white;
-    background-color: black;
-    font-size: 150%;
-}
-#read_more{
-    color: white;
-    background-color:#0eab99;
-    font-size: 150%;
-    width: 150px;
-}
-
-h1, p, #read_more {
-    margin: 5px;
-    width: max-content;
-    padding: 5px;
-}
-.beacon {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    height: 40vh;
-    padding-left: 45%;
-    background-image: url(/pictures/mustache\ car.jpg);
-    background-size: 100% 60vh;
-    margin: 0 2%;
-    
-}
-
-.pictures {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    padding: 15px 15px;
-}
-
-.pictures > a {
-    text-align: center;
-}
-.pictures > a > img {
-    border: solid 3px black;
-}
 .navbar{
     min-height: 70px;
     display: flex;
@@ -113,18 +63,6 @@ h1, p, #read_more {
     height: 150px;
     margin-left: auto;
     margin-right: auto;
-}
-@media(max-width:992px){
-    h1 {
-        color: blue;
-    }
-    .beacon {
-        padding-left: 20%;
-    }
-
-    img {
-    width: 100%;
-    }
 }
 @media(max-width:768px){
     .hamburger{
@@ -178,19 +116,4 @@ h1, p, #read_more {
     .nav-link{
         color: white;
     } 
-    h1 {
-        color: black;
-    }
-    .beacon {
-        padding-left: 5%;
-    }
-    .pictures {
-        display: flex;
-        flex-direction: column;
-    }
-    .pictures > a > img {
-        width: 30vh;
-        height: 25vh;
-    }
 }
-
