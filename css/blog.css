@@ -64,6 +64,93 @@ a{
     margin-left: auto;
     margin-right: auto;
 }
+h1 {
+    background-color: black;
+    color: white;
+    width: max-content;
+    margin: auto;
+    font-family: Stencil Std, fantasy;
+    letter-spacing: 0.08em; 
+    padding: 10px;
+    font-size: 350%;
+}
+.entire-mustache {
+    display: grid;
+    grid-template-rows: 30vh 30vh 30vh;
+    grid-template-columns: 33.5% 66.5%;
+    padding: 20px 10%;
+    row-gap: 20px;
+    text-align: center;
+}
+.mustache {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 15px 20px;
+    border: solid black 2px;
+}
+ h2 {
+     font-family: Andale Mono, monospace;
+ }
+ p {
+     font-size: 175%;
+ }
+
+.mustache > a {
+    background-color: black;
+    color: white;
+    width:max-content;
+    margin: 0 auto;
+    padding: 10px;
+}
+#blog1 {
+    grid-area: 1/ 1/ span 1/ span 1;
+}
+#mustache1 {
+    grid-area: 1/ 2/ span 1/ span 1;
+}
+#blog2 {
+    grid-area: 2/ 1/ span 1/ span 1;
+}
+
+#mustache2 { 
+    grid-area: 2/ 2/ span 1/ span 1;
+}
+
+#blog3 {
+    grid-area: 3/ 1/ span 1/ span 1;
+}
+
+#mustache3 {
+    grid-area: 3/ 2/ span 1/ span 1;
+}
+
+.entire-mustache > img {
+    width: 100%;
+    height: 100%;
+    border: solid black 2px;
+}
+
+@media(max-width:992px){
+    h1 {
+        color: blue;
+    }
+    .entire-mustache {
+        display: grid;
+        grid-template-rows: 25vh 25vh 25vh;
+        grid-template-columns: 33.5% 66.5%;
+        padding: 15px 30px;
+    }
+    p {
+        font-size: 135%;
+    }
+    .entire-mustache > img {
+        width: 100%;
+        height: 100%;
+        border: solid black 2px;
+    }
+}
+
 @media(max-width:768px){
     .hamburger{
         display: block;
@@ -116,4 +203,25 @@ a{
     .nav-link{
         color: white;
     } 
+    .entire-mustache {
+        display: flex;
+        flex-direction: column;
+        margin: 20px 12%;
+        
+    }
+    h1 {
+        color: white;
+    }
+    .entire-mustache > img {
+        width: 100%;
+        
+    }
+    p {
+        font-size: 125%;
+    }
+    .mustache {
+        padding-bottom: 20px;
+        margin-bottom: 30px;
+        height: 32.5vh;
+    }
 }

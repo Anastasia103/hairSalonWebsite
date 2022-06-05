@@ -64,6 +64,60 @@ a{
     margin-left: auto;
     margin-right: auto;
 }
+h1 {
+    background-color: black;
+    color: white;
+    width: max-content;
+    margin: auto;
+    font-family: Stencil Std, fantasy;
+    letter-spacing: 0.08em; 
+    padding: 10px;
+    font-size: 350%;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    margin: 20px 10%;
+    row-gap: 30px;
+}
+label, textarea{
+    margin: auto;
+    width: 100%;
+    border: solid black 1px;
+    color: black;
+}
+
+::placeholder {
+    color: black;
+    font-size: 120%;
+}
+
+input {
+    height: 6vh;
+    width: 100%;
+    text-align: center;
+}
+
+#message {
+    border: solid black 2px;
+    font-size: 130%;
+    padding: 5px 10px;
+    height: 18vh;
+}
+
+#message::placeholder {
+ text-align: center;
+ vertical-align: top;
+}
+button {
+    color: white;
+    background-color: black;
+    width: max-content;
+    padding: 15px;
+    margin: auto;
+    font-size: 180%;
+}
+
 @media(max-width:768px){
     .hamburger{
         display: block;
